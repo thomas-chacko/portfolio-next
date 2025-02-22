@@ -1,4 +1,3 @@
-import blog from "../public/assets/projects/blog.png";
 import ecommerse from "../public/assets/projects/ecommerse.png";
 import netflix from "../public/assets/projects/netfix.png";
 import travel from "../public/assets/projects/travel.png";
@@ -15,11 +14,6 @@ const Projects = () => {
         </p>
         <h2 className="py-4">What I&apos;ve Built</h2>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-8">
-          <ProjectItem
-            title="Blog App"
-            backgroundImg={blog}
-            tech="React JS Node JS Express Js MongoDB Tailwind CSS"
-          />
           <ProjectItem
             title="Snap Shop"
             backgroundImg={ecommerse}

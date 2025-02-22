@@ -1,7 +1,6 @@
 import React from "react";
 import Image from "next/image";
-import Link from "next/link";
-import AboutImg from "../public/assets/thomas.jpg";
+import AboutImg from "../public/assets/thomas.png";
 
 const About = () => {
   return (
@@ -13,28 +12,16 @@ const About = () => {
           </p>
           <h2 className="py-4">Who I Am</h2>
           <p className="py-2 text-gray-600">
-            Hello, I'm Thomas Chacko, a passionate Full Stack Developer with a
-            strong foundation in computer science and a Bachelor's degree in
-            Computer Applications (BCA). I thrive on turning ideas into digital
-            solutions and enjoy the process of creating seamless, user-friendly
-            experiences.
+            Hello, I'm Thomas Chacko, a passionate Front-End Developer with a strong foundation in computer science and a Bachelor's degree in Computer Applications (BCA). I thrive on turning ideas into engaging digital experiences and enjoy crafting seamless, user-friendly interfaces.
           </p>
           <p className="py-2 text-gray-600">
-            In my professional journey, I have successfully contributed to
-            various projects, utilizing my expertise in the MERN stack. From
-            designing responsive user interfaces with React to building robust
-            back-end services with Node.js and Express, my goal is to create
-            seamless and enjoyable user experiences
+          In my professional journey, I have successfully contributed to various projects, specializing in React, Next.js, Tailwind CSS, HTML, CSS, JavaScript, and TypeScript to build responsive, high-performance web applications. My focus is on delivering smooth user experiences, optimized performance, and clean, maintainable code.
           </p>
-          <Link href="/#projects">
-            <p className="py-2 text-gray-600 underline cursor-pointer">
-              Check out some of my latest projects.
-            </p>
-          </Link>
         </div>
-        <div className="w-full h-auto m-auto shadow-xl shadow-gray-400 rounded-xl flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-          <Image src={AboutImg} className="rounded-xl" alt="noimage" />
-        </div>
+        <div className="w-full h-auto m-auto flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
+  <Image src={AboutImg} className="rounded-xl drop-shadow-2xl" alt="noimage" />
+</div>
+
       </div>
     </div>
   );
