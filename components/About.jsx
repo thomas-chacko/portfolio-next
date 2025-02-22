@@ -15,12 +15,12 @@ const About = () => {
             Hello, I'm Thomas Chacko, a passionate Front-End Developer with a strong foundation in computer science and a Bachelor's degree in Computer Applications (BCA). I thrive on turning ideas into engaging digital experiences and enjoy crafting seamless, user-friendly interfaces.
           </p>
           <p className="py-2 text-gray-600">
-          In my professional journey, I have successfully contributed to various projects, specializing in React, Next.js, Tailwind CSS, HTML, CSS, JavaScript, and TypeScript to build responsive, high-performance web applications. My focus is on delivering smooth user experiences, optimized performance, and clean, maintainable code.
+            In my professional journey, I have successfully contributed to various projects, specializing in React, Next.js, Tailwind CSS, HTML, CSS, JavaScript, and TypeScript to build responsive, high-performance web applications. My focus is on delivering smooth user experiences, optimized performance, and clean, maintainable code.
           </p>
         </div>
         <div className="w-full h-auto m-auto flex items-center justify-center p-4 hover:scale-105 ease-in duration-300">
-  <Image src={AboutImg} className="rounded-xl drop-shadow-2xl" alt="noimage" />
-</div>
+          <Image src={AboutImg} className="rounded-xl drop-shadow-2xl" alt="noimage" />
+        </div>
 
       </div>
     </div>
